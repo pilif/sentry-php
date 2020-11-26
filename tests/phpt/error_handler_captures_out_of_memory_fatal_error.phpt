@@ -2,6 +2,7 @@
 Test catching out of memory fatal error
 --INI--
 memory_limit=20M
+xdebug.mode=coverage
 --FILE--
 <?php
 

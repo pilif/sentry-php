@@ -8,22 +8,22 @@ image: Visual Studio 2019
 environment:
     matrix:
         - PHP_VERSION: 7.2
-          XDEBUG_VERSION: 2.9.2-7.2-vc15-nts
+          XDEBUG_VERSION: 3.0.0-7.2-vc15-nts
           DEPENDENCIES: lowest
         - PHP_VERSION: 7.2
-          XDEBUG_VERSION: 2.9.2-7.2-vc15-nts
+          XDEBUG_VERSION: 3.0.0-7.2-vc15-nts
           DEPENDENCIES: highest
         - PHP_VERSION: 7.3
-          XDEBUG_VERSION: 2.9.2-7.3-vc15-nts
+          XDEBUG_VERSION: 3.0.0-7.3-vc15-nts
           DEPENDENCIES: lowest
         - PHP_VERSION: 7.3
-          XDEBUG_VERSION: 2.9.2-7.3-vc15-nts
+          XDEBUG_VERSION: 3.0.0-7.3-vc15-nts
           DEPENDENCIES: highest
         - PHP_VERSION: 7.4
-          XDEBUG_VERSION: 2.9.2-7.4-vc15-nts
+          XDEBUG_VERSION: 3.0.0-7.4-vc15-nts
           DEPENDENCIES: lowest
         - PHP_VERSION: 7.4
-          XDEBUG_VERSION: 2.9.2-7.4-vc15-nts
+          XDEBUG_VERSION: 3.0.0-7.4-vc15-nts
           DEPENDENCIES: highest
 
 matrix:

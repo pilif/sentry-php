@@ -1,5 +1,7 @@
 --TEST--
 Test that the error handler throws an error when trying to reserve a negative amount of memory
+--INI--
+xdebug.mode=coverage
 --FILE--
 <?php
 

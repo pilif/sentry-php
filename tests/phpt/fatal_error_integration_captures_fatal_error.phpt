@@ -1,5 +1,7 @@
 --TEST--
 Test that the FatalErrorListenerIntegration integration captures only the errors allowed by the error_types option
+--INI--
+xdebug.mode=coverage
 --FILE--
 <?php
 

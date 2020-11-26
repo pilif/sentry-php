@@ -1,5 +1,7 @@
 --TEST--
 Test catching fatal errors
+--INI--
+xdebug.mode=coverage
 --FILE--
 <?php
 

@@ -1,5 +1,7 @@
 --TEST--
 Test that the value returned by a previous error handler is used to decide whether to invoke the native PHP handler
+--INI--
+xdebug.mode=coverage
 --FILE--
 <?php
 
